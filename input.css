@@ -55,6 +55,12 @@
   background-size: cover;
 }
 
+#bg-mobile {
+  background-image: url("../mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #fading {
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
