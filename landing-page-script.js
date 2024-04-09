@@ -24,11 +24,9 @@ function sendEmail() {
    <br> Email Address: ${email.value} <br> Phone Number: ${phone.value} <br> Message: ${message.value}`;
 
   Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "hakeemaseradel@gmail.com",
-    Password: "2B3A57C352F9924487DC64E5DBDE71B4C74B",
-    To: "hakeemaseradel@gmail.com",
-    From: "hakeemaseradel@gmail.com",
+    SecureToken: "9c334764-b1dc-44dd-b285-e4990535344c",
+    To: "info@clearsightanalytics.com.au",
+    From: "info@clearsightanalytics.com.au",
     Subject: "New Message from Client",
     Body: bodySubject,
   }).then((message) => {

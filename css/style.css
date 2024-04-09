@@ -622,10 +622,6 @@ video {
   right: 0px;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
 .right-20 {
   right: 5rem;
 }
@@ -644,10 +640,6 @@ video {
 
 .top-14 {
   top: 3.5rem;
-}
-
-.top-8 {
-  top: 2rem;
 }
 
 .z-10 {
@@ -678,6 +670,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -731,6 +727,14 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[55px\] {
+  height: 55px;
 }
 
 .w-0 {
@@ -793,16 +797,16 @@ video {
   width: 100%;
 }
 
-.w-80 {
-  width: 20rem;
+.w-\[100px\] {
+  width: 100px;
 }
 
-.w-32 {
-  width: 8rem;
+.w-\[90px\] {
+  width: 90px;
 }
 
-.w-96 {
-  width: 24rem;
+.w-\[95px\] {
+  width: 95px;
 }
 
 .max-w-3xl {
@@ -843,10 +847,6 @@ video {
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-96 {
-  max-width: 24rem;
 }
 
 .scale-75 {
@@ -949,6 +949,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -1171,6 +1177,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -1189,10 +1199,6 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
 }
 
 .text-center {
@@ -1369,6 +1375,48 @@ video {
 
 #bg-powerBI {
   background-image: url("../powerBI-imgs/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-googleAds {
+  background-image: url("../google-ads/googleAds-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-googleAnalyze {
+  background-image: url("../google-ads/analyze-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-xero {
+  background-image: url("../xero/xero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-kpi {
+  background-image: url("../kpi/kpi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-hr {
+  background-image: url("../kpi/kpi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-excel {
+  background-image: url("../excel/excel-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-query {
+  background-image: url("../bigQuery/big-query-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1638,6 +1686,10 @@ video {
     bottom: 3rem;
   }
 
+  .md\:left-0 {
+    left: 0px;
+  }
+
   .md\:left-14 {
     left: 3.5rem;
   }
@@ -1661,6 +1713,10 @@ video {
 
   .md\:h-\[150px\] {
     height: 150px;
+  }
+
+  .md\:h-\[160px\] {
+    height: 160px;
   }
 
   .md\:w-1\/2 {
@@ -1693,6 +1749,10 @@ video {
 
   .md\:w-\[224px\] {
     width: 224px;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
   }
 
   .md\:max-w-6xl {

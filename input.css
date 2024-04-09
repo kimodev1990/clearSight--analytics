@@ -37,6 +37,48 @@
   background-size: cover;
 }
 
+#bg-googleAds {
+  background-image: url("../google-ads/googleAds-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-googleAnalyze {
+  background-image: url("../google-ads/analyze-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-xero {
+  background-image: url("../xero/xero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-kpi {
+  background-image: url("../kpi/kpi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-hr {
+  background-image: url("../kpi/kpi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-excel {
+  background-image: url("../excel/excel-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-query {
+  background-image: url("../bigQuery/big-query-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #bg-contact-header {
   background-image: url("../contact-header-bg.jpg");
   background-repeat: no-repeat;
